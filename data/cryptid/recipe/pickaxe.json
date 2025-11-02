@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "brb",
+    "rir",
+    "brb"
+  ],
+  "key": {
+    "b": {
+      "item": "bone"
+    },
+    "r": {
+      "item": "minecraft:rotten_flesh"
+    },
+    "i": {
+      "item": "minecraft:iron_pickaxe"
+    }
+  },
+  "result": {
+    "id": "minecraft:warped_fungus_on_a_stick",
+    "components": {
+      "minecraft:custom_model_data": 1305,
+      "minecraft:custom_name": "[\"\",{\"text\":\"Artery Carver\",\"italic\":false,\"color\":\"dark_red\"}]",
+      "minecraft:custom_data": {
+        "cryptid.fakepick": 1,
+        "cryptid.item": 1
+      }
+    }
+  }
+}

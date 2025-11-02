@@ -1,0 +1,1 @@
+execute run function mathematics:right_shift/0

@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "crc",
+    "rpr",
+    "crc"
+  ],
+  "key": {
+    "r": {
+      "item": "minecraft:iron_ingot"
+    },
+    "p": [
+      {
+        "item": "minecraft:redstone"
+      }
+    ],
+    "c": {
+      "item": "minecraft:copper_ingot"
+    }
+  },
+  "result": {
+    "id": "minecraft:warped_fungus_on_a_stick",
+    "components": {
+      "minecraft:custom_model_data": 1306,
+      "minecraft:custom_name": "[\"\",{\"text\":\"Portable Radar\",\"italic\":false,\"color\":\"red\"}]",
+      "minecraft:custom_data": {
+        "cryptid.item": 1,
+        "cryptid.fakeradar": 1
+      }
+    },
+    "count": 1
+  }
+}

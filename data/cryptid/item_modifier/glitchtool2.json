@@ -1,0 +1,27 @@
+{
+  "function": "minecraft:set_name",
+  "entity": "this",
+  "name": {
+    "text": "areyoureal",
+    "extra": [
+      {
+        "score": {
+          "objective": "cryptid.player.harmony",
+          "name": "@s"
+        },
+        "type": "score",
+        "color": "#ffffff",
+        "font": "minecraft:default",
+        "bold": false,
+        "italic": false,
+        "underlined": false,
+        "strikethrough": false,
+        "obfuscated": false
+      }
+    ],
+    "bold": true,
+    "italic": false
+  },
+  "target": "custom_name",
+  "conditions": []
+}

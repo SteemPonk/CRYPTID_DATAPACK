@@ -1,0 +1,10 @@
+tag @s add cryptid.fallground
+tag @s add cryptid
+scoreboard players reset @s cryptid.timer
+tag @s add cryptid.timer
+
+playsound minecraft:cryptid.torch.flicker ambient @a
+
+effect give @a[distance=0..4] blindness 2 2 true
+
+function cryptid:events/cryptid/flicker3

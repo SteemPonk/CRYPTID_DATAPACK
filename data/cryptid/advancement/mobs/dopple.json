@@ -1,0 +1,32 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:villager_spawn_egg",
+        "components": {
+          "minecraft:custom_model_data": 1319
+        },
+        "count": 1
+      },
+      "title": "Friend or foe",
+      "description": "Meet the 'friend'",
+      "background": "nether_wart_block",
+      "show_toast": true,
+      "announce_to_chat": true
+    },
+    "parent": "cryptid:mobs/skull",
+    "criteria": {
+      "impossible": {
+        "trigger": "minecraft:impossible"
+      }
+    },
+    "requirements": [
+      [
+        "impossible"
+      ]
+    ],
+    "rewards": {
+      "recipes": [],
+      "experience": 5,
+      "function": "cryptid:action/give/giveshotgunrecipe"
+    }
+  }

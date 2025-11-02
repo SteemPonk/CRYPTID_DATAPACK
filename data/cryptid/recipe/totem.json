@@ -1,0 +1,31 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "bob",
+      "oco",
+      "bob"
+    ],
+    "key": {
+      "c": {
+        "item": "minecraft:crying_obsidian"
+      },
+      "b": {
+        "item": "minecraft:bone"
+      },
+      "o": {
+        "item": "minecraft:obsidian"
+      }
+    },
+    "result": {
+      "id": "minecraft:villager_spawn_egg",
+      "components": {
+        "minecraft:custom_model_data": 1319,
+        "minecraft:custom_data": {
+          "cryptid.item": 1,
+          "faketotem": 1
+        },
+        "minecraft:item_name": "\"Lesser Bloodstone Totem\""
+      },
+      "count": 1
+    }
+  }

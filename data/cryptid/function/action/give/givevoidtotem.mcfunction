@@ -1,0 +1,1 @@
+give @s warped_fungus_on_a_stick[custom_data={cryptid.item:1, cryptid.voidtotem:1},custom_name='["",{"text":"Void Protection Totem","italic":false,"bold":true,"color":"red"}]',lore=['["",{"text":"Hold in mainhand to negate","italic":false,"color":"dark_gray"}]','["",{"text":"the effects of the void. ","italic":false,"color":"dark_gray"}]'],custom_model_data=1310]

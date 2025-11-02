@@ -1,0 +1,1 @@
+tp @s @e[tag=cryptid.doppleinstance,limit=1, type=vindicator, sort=nearest]

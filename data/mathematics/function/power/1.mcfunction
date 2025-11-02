@@ -1,0 +1,1 @@
+execute if score @s math.i < @s math.iteration run function mathematics:power/2

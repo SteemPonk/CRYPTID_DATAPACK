@@ -1,0 +1,1 @@
+execute run scoreboard players operation @s math.target += @s math.source

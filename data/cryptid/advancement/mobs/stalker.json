@@ -1,0 +1,31 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:villager_spawn_egg",
+        "components": {
+          "minecraft:custom_model_data": 1319
+        },
+        "count": 1
+      },
+      "title": "A bit shy",
+      "description": "Find the living obelisk. Maybe stay home at night.",
+      "background": "nether_wart_block",
+      "show_toast": true,
+      "announce_to_chat": true
+    },
+    "parent": "cryptid:mobs/skinned",
+    "criteria": {
+      "impossible": {
+        "trigger": "minecraft:impossible"
+      }
+    },
+    "requirements": [
+      [
+        "impossible"
+      ]
+    ],
+    "rewards": {
+      "recipes": [],
+      "experience": 5
+    }
+  }

@@ -1,0 +1,90 @@
+{
+  "type": "minecraft:block_column",
+  "config": {
+    "direction": "up",
+    "allowed_placement": {
+      "type": "minecraft:inside_world_bounds"
+    },
+    "prioritize_tip": true,
+    "layers": [
+      {
+        "height": {
+          "type": "minecraft:uniform",
+          "min_inclusive": 100,
+          "max_inclusive": 140
+        },
+        "provider": {
+          "type": "minecraft:noise_provider",
+          "seed": 540289594,
+          "noise": {
+            "firstOctave": -1,
+            "amplitudes": [
+              0.1,
+              1,
+              3,
+              30
+            ]
+          },
+          "scale": 0.5,
+          "states": [
+            {
+              "Name": "minecraft:nether_wart_block"
+            }
+          ]
+        }
+      },
+      {
+        "height": {
+          "type": "minecraft:uniform",
+          "min_inclusive": 50,
+          "max_inclusive": 60
+        },
+        "provider": {
+          "type": "minecraft:noise_provider",
+          "seed": -1836691896,
+          "noise": {
+            "firstOctave": 1,
+            "amplitudes": [
+              0.5
+            ]
+          },
+          "scale": 0.6,
+          "states": [
+            {
+              "Name": "minecraft:red_terracotta",
+              "Properties": {}
+            },
+            {
+              "Name": "minecraft:nether_wart_block"
+            }
+          ]
+        }
+      },
+      {
+        "height": {
+          "type": "minecraft:uniform",
+          "min_inclusive": 190,
+          "max_inclusive": 240
+        },
+        "provider": {
+          "type": "minecraft:noise_provider",
+          "seed": 1275208691,
+          "noise": {
+            "firstOctave": 1,
+            "amplitudes": [
+              0.2,
+              1,
+              10
+            ]
+          },
+          "scale": 2,
+          "states": [
+            {
+              "Name": "minecraft:red_terracotta"
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

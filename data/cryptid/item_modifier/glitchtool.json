@@ -1,0 +1,28 @@
+{
+  "function": "minecraft:set_name",
+  "entity": "this",
+  "name": {
+    "text": "fear",
+    "extra": [
+      {
+        "score": {
+          "objective": "cryptid.player.harmony",
+          "name": "@s"
+        },
+        "type": "score",
+        "color": "#ffffff",
+        "font": "minecraft:default",
+        "bold": false,
+        "italic": false,
+        "underlined": false,
+        "strikethrough": false,
+        "obfuscated": false
+      }
+    ],
+    "font": "minecraft:alt",
+    "bold": true,
+    "italic": false
+  },
+  "target": "custom_name",
+  "conditions": []
+}

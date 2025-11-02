@@ -1,0 +1,1 @@
+execute run function mathematics:natural_logarithm/0

@@ -1,0 +1,70 @@
+***************************Welcome to the Official CRYPTID Design Spec!********************************
+
+
+
+This doc is a work in progress, and will go over all CRYPTID core functions, technical usage, libraries, and methods of modifying or summoning events.
+Feel free to push suggestions in our discord, I am not sure how many people will use this document.
+The majority of the mod is made by me, Steampwered; Fin mun did a few textures, Hersical and Navojj composed part of the music, and Fhursday provided a texture and a secret track.
+
+
+
+
+[Glossary]
+
+
+1. File structure
+2. Entity methods
+3. World ticking
+4. Custom models/animations
+5. Structures and block changes
+6. Shader utils
+
+
+
+[#1]
+****FILE STRUCTURE****
+
+CRYPTID file structure is divided into 4 main folders, TICK, ACTION, EVENTS, and BOSS. These are all found in the main datapack file.
+
+
+TICK handles most* events that have to run every game tick or constant enough to cause a significant decrease in performance.
+The main tick.mcfunction is located in the main directory, and it controls everything.
+Most CRYPTID data is stored in scoreboards, which can be viewed, accessed, and edited through this directory.
+
+*some tick events have not been updated, and still reside in old folders. This is very rare.
+
+TICK is divided into subfolders, with entity ticks being named tick[entityname].mcfunction in the main tick folder
+Tick functions for players are in tick/player, with the most costly being tick/playertick
+Any tick function should be checked thoroughly for lag; By splitting tick checks into predicates and scoreboards, and running a function,
+we can severely decrease the lag. EXAMPLE -> [execute if entity @e[tag=cryptid] run commands 1..20  ===> execute if PREDICATE run FUNCTION function1..20.mcfunction]
+IMPORTANT: CRYPTID does not use a regular file tree for ticking entities. This was the case in 1.0.4 but has been phased out for performance. What this means is there is
+no tag tree. CRYPTID does not check for every entity to have a tag, then run a function. So NOT execute as entity @e[tag=cryptid, tag=cryptid.skull] run function tickharrow,
+Instead, it uses a dynamic marker macro to apply data to a marker entity, force the marker to ride the cryptid, and link the two together. The game then ticks as all markers (much less costly 
+than checking for every entity with a tag!) and ticks the function in the marker data, onto the cryptid entity. Sounds like a hassle? It's simplified with the 
+``function cryptid:action/general/spawntickmarker {"name":"tickskinned"}`` macro, which handles it all for you! 
+
+ACTION handles all functions that execute for a short time, or only once. Its used for things like shotgun blasts or entity actions, like chompers eating or curators digging.
+ACTION is also divided into subfolders, based on the entity doing the action. action/player is a very useful folder
+
+EVENTS handle 
+
+[#2]
+****ENTITY METHODS****
+
+summon entities with /function cryptid:events/[EVENTNAME]
+(this actually handles all events and world functions too!)
+
+[#3]
+****WORLD TICKING****
+
+
+[#4]
+****MODELS****
+
+
+[#5]
+****STRUCTURES AND BLOCKS****
+
+
+[#6]
+****SHADER UTILS****

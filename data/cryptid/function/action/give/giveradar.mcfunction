@@ -1,0 +1,3 @@
+give @s warped_fungus_on_a_stick[custom_name='["",{"text":"Portable Radar","italic":false,"color":"red"}]',lore=['["",{"text":"Displays nearby cryptids, harmony,","italic":false,"color":"dark_red"}]','["",{"text":"and class","italic":false,"color":"dark_red"}]','[""]','["",{"text":"Using this item too much can","italic":false,"color":"dark_red"}]','["",{"text":"have unforseen consequences...","italic":false,"color":"dark_red"}]'],custom_model_data=1306,custom_data={cryptid.item:1, cryptid.radar:1}]
+
+clear @s minecraft:warped_fungus_on_a_stick[minecraft:custom_data~{cryptid.fakeradar:1b}]

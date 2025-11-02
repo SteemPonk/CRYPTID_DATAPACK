@@ -1,0 +1,1 @@
+execute run function mathematics:common_logarithm/0

@@ -1,0 +1,48 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "rrr",
+    "rhr",
+    "rrr"
+  ],
+  "key": {
+    "r": {
+      "item": "minecraft:rotten_flesh"
+    },
+    "h": {
+      "item": "minecraft:honey_bottle"
+    }
+  },
+  "result": {
+    "id": "minecraft:sugar",
+    "components": {
+      "minecraft:custom_model_data": 1308,
+      "minecraft:food": {
+        "nutrition": 2,
+        "saturation": 2,
+        "can_always_eat": true,
+        "eat_seconds": 2,
+        "using_converts_to": {
+          "id": "minecraft:sugar",
+          "components": {
+            "minecraft:custom_data": {
+              "cryptid.usedhoney": 1,
+              "cryptid.item": 1
+            },
+            "minecraft:custom_model_data": 1308
+          }
+        }
+      },
+      "minecraft:custom_name": "[\"\",{\"text\":\"Rotted Bee Balm\",\"italic\":false,\"color\":\"red\"}]",
+      "minecraft:lore": [
+        "[\"\",{\"text\":\"[Consumable up to 5 times]\",\"italic\":false,\"color\":\"dark_red\"}]",
+        "[\"\",{\"text\":\"Increases max harmony cap by 500\",\"italic\":false,\"color\":\"dark_red\"}]",
+        "[\"\",{\"text\":\"Events will happen more often\",\"italic\":false,\"color\":\"dark_red\"}]"
+      ],
+      "minecraft:custom_data": {
+        "cryptid.beebalm": 1
+      }
+    },
+    "count": 1
+  }
+}

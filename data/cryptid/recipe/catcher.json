@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "bsb",
+    "sfs",
+    "bsb"
+  ],
+  "key": {
+    "b": {
+      "item": "bone"
+    },
+    "s": {
+      "item": "minecraft:string"
+    },
+    "f": {
+      "item": "minecraft:feather"
+    }
+  },
+  "result": {
+    "id": "minecraft:warped_fungus_on_a_stick",
+    "components": {
+      "minecraft:custom_model_data": 1304,
+      "minecraft:custom_name": "[{\"text\":\"Warped Nightmare Catcher\",\"italic\":false,\"color\":\"dark_red\"}]",
+      "minecraft:custom_data": {
+        "cryptid.fakecatcher": 1,
+        "cryptid.item": 1
+      }
+    }
+  }
+}

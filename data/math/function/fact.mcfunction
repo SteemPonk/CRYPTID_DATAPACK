@@ -1,0 +1,1 @@
+execute run function mathematics:factorial/0

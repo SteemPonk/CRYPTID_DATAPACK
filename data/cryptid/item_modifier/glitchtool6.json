@@ -1,0 +1,27 @@
+{
+  "function": "minecraft:set_name",
+  "only_compatible": true,
+  "entity": "this",
+  "name": {
+    "text": "hellohellohellohellohellohello",
+    "extra": [
+      {
+        "selector": "@s",
+        "color": "#f8f1f1",
+        "font": "minecraft:uniform",
+        "bold": true,
+        "italic": false,
+        "underlined": false,
+        "strikethrough": false,
+        "obfuscated": false
+      }
+    ],
+    "color": "#342523",
+    "bold": true,
+    "italic": false,
+    "underlined": false,
+    "strikethrough": false,
+    "obfuscated": false
+  },
+  "conditions": []
+}

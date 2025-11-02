@@ -1,0 +1,1 @@
+execute if score @s math.target matches -1800..1799 run function mathematics:vector/1

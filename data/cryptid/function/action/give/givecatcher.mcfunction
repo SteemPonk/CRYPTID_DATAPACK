@@ -1,0 +1,1 @@
+give @p warped_fungus_on_a_stick[custom_data={cryptid.item:1b,cryptid.catcher:1},lore=['["",{"text":"Keeps the demons away","italic":false,"color":"dark_red"}]'], custom_model_data=1304,custom_name='[{"text":"Warped Nightmare Catcher","italic":false,"color":"dark_red"}]'] 1

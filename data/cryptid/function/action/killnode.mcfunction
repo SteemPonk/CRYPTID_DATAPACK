@@ -1,0 +1,1 @@
+kill @e[tag=cryptid.playernode, sort=furthest,limit=2]

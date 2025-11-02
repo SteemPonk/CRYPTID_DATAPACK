@@ -1,0 +1,24 @@
+{
+  "criteria": {
+    "use_item": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "item": {
+          "predicates": {
+            "minecraft:custom_data": {"cryptid.item": true}
+
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "use_item"
+    ]
+  ],
+  "rewards": {
+    "function": "cryptid:events/useitem"
+  },
+  "sends_telemetry_event": false
+}

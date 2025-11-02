@@ -1,0 +1,60 @@
+{
+  "temperature": 0,
+  "downfall": 0,
+  "has_precipitation": false,
+  "creature_spawn_probability": 0.01,
+  "effects": {
+    "sky_color": 852482,
+    "fog_color": 852482,
+    "water_color": 852482,
+    "water_fog_color": 852482,
+    "grass_color": 852482,
+    "foliage_color": 852482,
+    "grass_color_modifier": "dark_forest",
+    "ambient_sound": "ambient.nether_wastes.loop",
+    "mood_sound": {
+      "sound": "minecraft:ambient.warped_forest.mood",
+      "tick_delay": 1200,
+      "block_search_extent": 15,
+      "offset": 10
+    },
+    "additions_sound": {
+      "sound": "minecraft:ambient.warped_forest.additions",
+      "tick_chance": 0.001
+    },
+    "particle": {
+      "options": {
+        "type": "minecraft:sculk_charge_pop"
+      },
+      "probability": 0.002
+    }
+  },
+  "spawners": {
+    "ambient": [
+      {
+        "type": "minecraft:bat",
+        "weight": 1,
+        "minCount": 20,
+        "maxCount": 50
+      }
+    ]
+  },
+  "spawn_costs": {
+    "minecraft:bat": {
+      "energy_budget": 0.15,
+      "charge": 0.35
+    }
+  },
+  "carvers": {
+    "air": [
+      "minecraft:cave_extra_underground",
+      "minecraft:cave",
+      "minecraft:nether_cave"
+    ]
+  },
+  "features": [
+    [
+      "cryptid:fleshspike"
+    ]
+  ]
+}

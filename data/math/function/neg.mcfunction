@@ -1,0 +1,1 @@
+execute run function mathematics:negativity/0

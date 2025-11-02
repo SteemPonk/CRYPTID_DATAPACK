@@ -1,0 +1,100 @@
+[
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      {
+        "text": "\"If you listen closely, you can hear voices inside\"",
+        "color": "#896c6c",
+        "bold": false,
+        "italic": true
+      },
+      {
+        "text": ""
+      },
+      {
+        "text": "[MODE] Secondary: ",
+        "extra": [
+          {
+            "text": "Paranormal Detection",
+            "color": "#a35252",
+            "bold": false,
+            "italic": false
+          }
+        ],
+        "color": "#fff829",
+        "bold": true,
+        "italic": false
+      },
+      {
+        "text": ""
+      },
+      {
+        "text": "Tracking Cryptid: [",
+        "extra": [
+          {
+            "selector": "@e[tag=cryptid,sort=nearest,limit=1, type=!armor_stand]",
+            "extra": [
+              {
+                "text": "]",
+                "color": "#672222",
+                "bold": false,
+                "italic": false
+              }
+            ],
+            "color": "#ff1100",
+            "bold": true,
+            "italic": false
+          }
+        ],
+        "color": "#672222",
+        "bold": false,
+        "italic": false
+      },
+      {
+        "text": ""
+      },
+      {
+        "text": "Cryptid Class: [",
+        "extra": [
+          {
+            "score": {
+              "objective": "cryptid.mob.class",
+              "name": "@e[tag=cryptid,sort=nearest,limit=1]"
+            },
+            "type": "score",
+            "extra": [
+              {
+                "text": "]",
+                "color": "#672222",
+                "bold": false,
+                "italic": false
+              }
+            ],
+            "color": "#c25151",
+            "bold": true,
+            "italic": false
+          }
+        ],
+        "color": "#672222",
+        "bold": false,
+        "italic": false
+      },
+      {
+        "text": ""
+      }
+
+    ],
+    "mode": "replace_all",
+    "conditions": []
+  },
+  {
+    "function": "minecraft:set_custom_data",
+    "tag": {
+      "cryptid.compass.status": 2,
+      "cryptid.compass": 1,
+      "cryptid.item": true,
+      "cryptid.firstcompass" : 0
+    }
+  }
+]

@@ -1,0 +1,30 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:villager_spawn_egg",
+        "components": {
+          "minecraft:custom_model_data": 1319
+        },
+        "count": 1
+      },
+      "title": "C.R.Y.P.T.I.D",
+      "description": "Consider clicking on the radio",
+      "background": "minecraft:textures/block/nether_wart_block.png",
+      "show_toast": true,
+      "announce_to_chat": true
+    },
+    "criteria": {
+      "impossible": {
+        "trigger": "minecraft:impossible"
+      }
+    },
+    "requirements": [
+      [
+        "impossible"
+      ]
+    ],
+    "rewards": {
+      "recipes": [],
+      "experience": 5
+    }
+  }

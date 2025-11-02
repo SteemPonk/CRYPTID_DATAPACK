@@ -1,0 +1,1 @@
+execute run scoreboard players set @s math.target 0

@@ -1,0 +1,130 @@
+[
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      {
+        "text": "\"Old and rusting, but still functional\"",
+        "color": "#896c6c",
+        "bold": false,
+        "italic": true
+      },
+      {
+        "text": ""
+      },
+      {
+        "text": "[MODE] Default: ",
+        "extra": [
+          {
+            "text": "Spirit Harmonizer",
+            "color": "#a35252",
+            "bold": false,
+            "italic": false
+          }
+        ],
+        "color": "#fff829",
+        "bold": true,
+        "italic": false
+      },
+      {
+        "text": ""
+      },
+      {
+        "text": "Personal Flux: [",
+        "extra": [
+          {
+            "score": {
+              "objective": "cryptid.player.flux",
+              "name": "@s"
+            },
+            "type": "score",
+            "extra": [
+              {
+                "text": "]",
+                "color": "#672222",
+                "bold": false,
+                "italic": false
+              }
+            ],
+            "color": "#c25151",
+            "bold": true,
+            "italic": false
+          }
+        ],
+        "color": "#672222",
+        "bold": false,
+        "italic": false
+      },
+      {
+        "text": ""
+      },
+      {
+        "text": "Spirit Harmony: [",
+        "extra": [
+          {
+            "score": {
+              "objective": "cryptid.player.harmony",
+              "name": "@s"
+            },
+            "type": "score",
+            "extra": [
+              {
+                "text": "]",
+                "color": "#672222",
+                "bold": false,
+                "italic": false
+              }
+            ],
+            "color": "#c25151",
+            "bold": true,
+            "italic": false
+          }
+        ],
+        "color": "#672222",
+        "bold": false,
+        "italic": false
+      },
+      {
+        "text": ""
+      },
+      {
+        "text": "Strength Rating: [",
+        "extra": [
+          {
+            "score": {
+              "objective": "cryptid.player.strength",
+              "name": "@s"
+            },
+            "type": "score",
+            "extra": [
+              {
+                "text": "%]",
+                "color": "#672222",
+                "bold": false,
+                "italic": false
+              }
+            ],
+            "color": "#c25151",
+            "bold": true,
+            "italic": false
+          }
+        ],
+        "color": "#672222",
+        "bold": false,
+        "italic": false
+      }
+    ],
+    "mode": "replace_all",
+    "conditions": []
+  },
+  {
+    "function": "minecraft:set_custom_data",
+    "tag": {
+      "cryptid.compass.status": 1,
+      "cryptid.compass": 1,
+      "cryptid.item": true,
+      "cryptid.firstcompass" : 0
+
+    }
+  }
+]

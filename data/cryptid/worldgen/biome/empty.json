@@ -1,0 +1,26 @@
+{
+  "carvers": {},
+  "downfall": 0.4,
+  "effects": {
+    "fog_color": 197379,
+    "grass_color": 16777215,
+    "foliage_color": 16119285,
+    "grass_color_modifier": "none",
+    "sky_color": 0,
+    "water_color": 16777215,
+    "water_fog_color": 15395568,
+    "ambient_sound": "minecraft:ambient.nether_wastes.loop",
+    "particle": {
+      "options": {
+        "type": "minecraft:block_marker",
+        "block_state": "minecraft:black_concrete"
+      },
+      "probability": 0.00005
+    }
+  },
+  "features": [],
+  "has_precipitation": false,
+  "spawn_costs": {},
+  "spawners": {},
+  "temperature": 0.8
+}

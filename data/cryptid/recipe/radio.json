@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:iron_ingot"
+    },
+    {
+      "item": "minecraft:redstone"
+    }
+  ],
+  "result": {
+    "id": "minecraft:sugar",
+    "components": {
+      "minecraft:custom_model_data": 1305,
+      "minecraft:food": {
+        "nutrition": 0,
+        "saturation": 0,
+        "can_always_eat": true,
+        "eat_seconds": 9999
+      },
+      "minecraft:custom_data": {
+        "cryptid.item": true,
+        "cryptid.compass": 1,
+        "cryptid.firstcompass": 1
+      },
+      "minecraft:custom_name": "{\"text\":\"Dilapidated Radio\",\"italic\":false,\"color\":\"red\"}"
+    },
+    "count": 1
+  }
+}

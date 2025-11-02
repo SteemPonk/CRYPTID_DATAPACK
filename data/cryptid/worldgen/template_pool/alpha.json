@@ -1,0 +1,84 @@
+{
+    "fallback": "minecraft:empty",
+    "elements": [
+      {
+        "weight": 1,
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "location": "cryptid:pyramid1",
+          "projection": "rigid",
+          "processors": "minecraft:empty"
+        }
+      },
+      {
+        "weight": 1,
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "location": "cryptid:pyramid2",
+          "projection": "rigid",
+          "processors": "minecraft:empty"
+        }
+      },
+      {
+        "weight": 1,
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "location": "cryptid:pyramid3",
+          "projection": "rigid",
+          "processors": "minecraft:empty"
+        }
+      },
+      {
+        "weight": 1,
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "location": "cryptid:pyramid4",
+          "projection": "rigid",
+          "processors": "minecraft:empty"
+        }
+      },      {
+        "weight": 1,
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "location": "cryptid:pyramid5",
+          "projection": "rigid",
+          "processors": "minecraft:empty"
+        }
+      },      {
+        "weight": 1,
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "location": "cryptid:pyramid6",
+          "projection": "rigid",
+          "processors": "minecraft:empty"
+        }
+      },      {
+        "weight": 1,
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "location": "cryptid:pyramid7",
+          "projection": "rigid",
+          "processors": "minecraft:empty"
+        }
+      },      {
+        "weight": 1,
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "location": "cryptid:pyramid8",
+          "projection": "rigid",
+          "processors": "minecraft:empty"
+        }
+      },      {
+        "weight": 1,
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "location": "cryptid:pyramid9",
+          "projection": "rigid",
+          "processors": "minecraft:empty"
+        }
+      }
+
+
+    ]
+  }
+  

@@ -1,0 +1,23 @@
+[
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      {
+        "text": "",
+        "extra": [
+          {
+            "selector": "@e[sort=nearest, limit=1, type=!player]"
+          }
+        ]
+      }
+    ],
+    "mode": "replace_all"
+  },
+  {
+    "function": "minecraft:set_components",
+    "components": {
+      "minecraft:damage": 12000
+    }
+  }
+]

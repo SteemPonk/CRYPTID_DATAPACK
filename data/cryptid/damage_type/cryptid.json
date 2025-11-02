@@ -1,0 +1,7 @@
+{
+  "message_id": "cryptid",
+  "exhaustion": 0,
+  "scaling": "always",
+  "effects": "hurt",
+  "death_message_type": "default"
+}

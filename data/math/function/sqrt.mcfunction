@@ -1,0 +1,1 @@
+execute run function mathematics:square_root/0

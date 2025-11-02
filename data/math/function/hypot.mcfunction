@@ -1,0 +1,1 @@
+execute run function mathematics:hypot/0

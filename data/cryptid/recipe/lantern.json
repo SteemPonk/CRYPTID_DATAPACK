@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "ingredients": [],
+  "pattern": [
+    "iii",
+    "isi",
+    "iii"
+  ],
+  "key": {
+    "i": {
+      "item": "minecraft:iron_ingot"
+    },
+    "s": {
+      "item": "minecraft:soul_lantern"
+    }
+  },
+  "result": {
+    "id": "minecraft:warped_fungus_on_a_stick",
+    "components": {
+      "minecraft:custom_data": {
+        "cryptid.fakelantern": 1,
+        "cryptid.item": 1
+      },
+      "minecraft:custom_name": "{\"text\":\"Bloodsteel Spirit Lantern\",\"italic\":false,\"color\":\"red\"}",
+      "minecraft:custom_model_data": 1302
+    },
+    "count": 1
+  }
+}

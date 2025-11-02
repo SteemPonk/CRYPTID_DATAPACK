@@ -1,0 +1,13 @@
+fill ~1 ~1 ~1 ~-1 ~-1 ~-1 air replace #minecraft:flowers
+fill ~1 ~1 ~1 ~-1 ~-1 ~-1 air replace minecraft:short_grass
+fill ~1 ~1 ~1 ~-1 ~-1 ~-1 air replace #minecraft:leaves
+fill ~1 ~1 ~1 ~-1 ~-1 ~-1 air replace powder_snow
+fill ~1 ~1 ~1 ~-1 ~-1 ~-1 air replace #minecraft:planks
+fill ~1 ~1 ~1 ~-1 ~-1 ~-1 air replace cobblestone
+fill ~1 ~1 ~1 ~-1 ~-1 ~-1 air replace water
+fill ~1 ~1 ~1 ~-1 ~-1 ~-1 air replace glass
+fill ~1 ~1 ~1 ~-1 ~-1 ~-1 air replace glass_pane
+fill ~1 ~1 ~1 ~-1 ~-1 ~-1 air replace #minecraft:stairs
+fill ~1 ~1 ~1 ~-1 ~-1 ~-1 air replace #minecraft:stone_bricks
+fill ~1 ~1 ~1 ~-1 ~-1 ~-1 air replace #minecraft:walls
+fill ~1 ~1 ~1 ~-1 ~-1 ~-1 air replace #minecraft:logs

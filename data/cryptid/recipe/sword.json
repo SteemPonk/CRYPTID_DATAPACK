@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "ingredients": [],
+  "pattern": [
+    "rrr",
+    "rsr",
+    "rrr"
+  ],
+  "key": {
+    "r": {
+      "item": "minecraft:rotten_flesh"
+    },
+    "s": {
+      "item": "minecraft:iron_sword"
+    }
+  },
+  "result": {
+    "id": "minecraft:warped_fungus_on_a_stick",
+    "components": {
+      "minecraft:custom_data": {
+        "cryptid.item": 1,
+        "cryptid.fakeblade": 1
+      },
+      "minecraft:custom_name": "{\"text\":\"Steel Torment\",\"italic\":false,\"color\":\"red\"}",
+      "minecraft:custom_model_data": 1301
+    },
+    "count": 1
+  }
+}
