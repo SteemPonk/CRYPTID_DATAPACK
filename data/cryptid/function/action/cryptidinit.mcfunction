@@ -4,7 +4,7 @@
 ##scoreboard players operation @s cryptid.reducedarmor = @p cryptid.armor
 
 ##nodrown
-data merge entity @s {DeathLootTable:"minecraft:empty"}
+data merge entity @s[tag=!cryptid.vorheart] {DeathLootTable:"minecraft:empty"}
 
 ###reset name
 
