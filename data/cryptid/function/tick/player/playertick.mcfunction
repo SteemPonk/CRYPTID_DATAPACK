@@ -27,8 +27,6 @@ execute as @s[gamemode=adventure] run gamemode survival
 execute as @s[tag=boss.fight.1] at @s run function cryptid:action/player/fightboss1
 
 
-
-
 ##clear music
 
 execute unless entity @s[tag=boss.fight.1] run stopsound @s * minecraft:cryptid.music.presenceloop
