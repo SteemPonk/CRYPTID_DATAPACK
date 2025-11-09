@@ -75,7 +75,7 @@
                           },
                           "lore": [
                             {
-                              "text": "Fractured, yet whole",
+                              "text": "Fractured, yet whole, can be burned",
                               "color": "#797272",
                               "italic": false
                             }
@@ -131,7 +131,7 @@
                           "function": "minecraft:set_lore",
                           "lore": [
                             {
-                              "text": "Not of animal origin",
+                              "text": "Not of animal origin, a worthy sacrifice",
                               "color": "#625555",
                               "italic": false
                             }
