@@ -1,9 +1,4 @@
 playsound minecraft:entity.phantom.death ambient @a[distance=0..10] ~ ~ ~ 0.5 0.1
-execute if score .global cryptid.day matches 1..3 run scoreboard players add .global cryptid.world.fury 1
-execute if score .global cryptid.day matches 3..10 run scoreboard players add .global cryptid.world.fury 3
-execute if score .global cryptid.day matches 10.. run scoreboard players add .global cryptid.world.fury 5
-
-
 
 
 
