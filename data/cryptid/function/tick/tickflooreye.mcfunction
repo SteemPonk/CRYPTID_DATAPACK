@@ -44,7 +44,7 @@ execute if entity @p[distance=70..] if score @s cryptid.player.random matches 12
 ##random events
 execute if entity @s[tag=flooreye.active] if score @s cryptid.player.random matches 12..25 run function cryptid:events/quietkill
 execute if entity @s[tag=flooreye.active] if score @s cryptid.player.random matches 50..150 run execute as @p[distance=0..10] at @s run scoreboard players remove @s cryptid.player.harmony 200
-execute if entity @s[tag=flooreye.active] if score @s cryptid.player.random matches 1..50 run function cryptid:events/cryptid/flicker5 
+execute if entity @s[tag=flooreye.active] if score @s cryptid.player.random matches 1..50 run function cryptid:events/cryptid/flicker5
 execute if entity @s[tag=flooreye.active] if score @s cryptid.player.random matches 100..150 run function cryptid:events/general/sprayevent
 execute if entity @s[tag=flooreye.active] if score @s cryptid.player.random matches 200..250 run function cryptid:events/node/block
 execute if entity @s[tag=flooreye.active] if score @s cryptid.player.random matches 300..350 run function cryptid:events/cryptid/chomper

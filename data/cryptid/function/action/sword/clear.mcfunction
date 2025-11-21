@@ -9,3 +9,7 @@ fill ~10 ~10 ~10 ~-10 ~-10 ~-10 air replace minecraft:nether_wart_block
 fill ~10 ~10 ~10 ~-10 ~-10 ~-10 stone replace minecraft:netherrack
 fill ~10 ~10 ~10 ~-10 ~-10 ~-10 cobblestone replace red_terracotta
 fill ~10 ~10 ~10 ~-10 ~-10 ~-10 torch replace redstone_torch
+fill ~10 ~10 ~10 ~-10 ~-10 ~-10 wall_torch[facing=north] replace redstone_wall_torch[facing=north]
+fill ~10 ~10 ~10 ~-10 ~-10 ~-10 wall_torch[facing=south] replace redstone_wall_torch[facing=south]
+fill ~10 ~10 ~10 ~-10 ~-10 ~-10 wall_torch[facing=east] replace redstone_wall_torch[facing=east]
+fill ~10 ~10 ~10 ~-10 ~-10 ~-10 wall_torch[facing=west] replace redstone_wall_torch[facing=west]

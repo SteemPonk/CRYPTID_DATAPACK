@@ -34,7 +34,7 @@ execute if score @s cryptid.player.random matches 2 run playsound minecraft:cryp
 
 
 
-execute as @a[distance=0..3] at @s run tp @s ~ ~-0.05 ~ facing entity @e[tag=cryptid.grabber, sort=nearest, limit=1] 
+execute as @a[distance=0..3] at @s run tp @s ~ ~-0.05 ~ facing entity @e[tag=cryptid.grabber, sort=nearest, limit=1]
 
 execute store result score @s cryptid.player.random run random value 1..10000
 

@@ -51,9 +51,9 @@ execute as @s store result score @s cryptid.player.random run random value 1..10
 execute as @p[distance=0..2] at @s run tag @p add cryptid.glitchscreen
 execute if entity @p[distance=0..2] run effect give @p minecraft:slowness 1 0 true
 execute if entity @e[tag=cryptid.skinned,distance=1..2] if entity @p[distance=0..2] run effect give @p minecraft:slowness 1 1 true
-execute if entity @p[distance=0..2] if score @s cryptid.player.random matches 1 run execute as @e[distance=5..30,type=!player] run damage @s 0 minecraft:player_attack by @p 
+execute if entity @p[distance=0..2] if score @s cryptid.player.random matches 1 run execute as @e[distance=5..30,type=!player] run damage @s 0 minecraft:player_attack by @p
 execute if entity @p[distance=0..1] run particle block{block_state:{Name:red_concrete}} ~ ~1 ~ 0.2 0.2 0.2 10 52
-execute if entity @p[distance=0..2] if score @s cryptid.player.random matches 1..10 run playsound minecraft:entity.ravager.attack ambient @a[distance=0..10] ~ ~ ~ 1 0.2 
+execute if entity @p[distance=0..2] if score @s cryptid.player.random matches 1..10 run playsound minecraft:entity.ravager.attack ambient @a[distance=0..10] ~ ~ ~ 1 0.2
 execute if entity @p[distance=0..2] if score @s cryptid.player.random matches 1..10 run item replace entity @s armor.head with potion[minecraft:custom_model_data=1304]
 
 

@@ -22,7 +22,7 @@ damage @p[distance=0..5] 5 minecraft:out_of_world by @s
 
 execute if entity @p[distance=0..20] run effect give @s speed 4 4 true
 
-execute if block ~ ~ ~ air run stopsound @a[distance=0..20] 
+execute if block ~ ~ ~ air run stopsound @a[distance=0..20]
 
 
 tag @a[distance=0..10] add cryptid.fearscreen
