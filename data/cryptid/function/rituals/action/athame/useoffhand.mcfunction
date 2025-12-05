@@ -1,4 +1,4 @@
-execute as @e[distance=..10,type=zombie,tag=cryptid.orifice] at @s run function cryptid:action/ritual/ritualstart
+execute as @e[distance=..10,type=zombie,tag=cryptid.orifice] at @s run function cryptid:rituals/action/ritualstart
 # schedual the function for thematic delay
 
 # Player effects
