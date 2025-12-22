@@ -20,7 +20,7 @@ place feature cryptid:convertfleshsmall
 execute positioned ~ ~5 ~ run place feature cryptid:convertfleshsmall
 
 #Infest single
-execute as @e[type=!player, type=!#cryptid:projectiles, type=!item, type=!villager, type=!armor_stand, tag=!cryptid, type=!marker, distance=..5] run function cryptid:action/general/infestsingle
+execute as @e[type=!player, type=!#cryptid:projectiles, type=!item, type=!villager, type=!armor_stand, tag=!cryptid, type=!marker, distance=..5] run function cryptid:action/general/corruptsingle
 
 ##Absorb items on the ground
 execute as @e[type=item,distance=0..4] run function cryptid:events/quietkill
