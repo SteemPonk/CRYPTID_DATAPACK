@@ -12,10 +12,9 @@ fill ~1 ~-2 ~1 ~-1 ~1 ~-1 air
 
 #summon familiar soul
 summon vindicator ~ ~-2 ~ {Silent:1b,Tags:["cryptid","cryptid.digger"],CustomName:'{"color":"red","text":"Familiar Soul"}',CustomNameVisible:1b,ArmorItems:[{},{},{},{id:"minecraft:potion",count:1,components:{"minecraft:custom_model_data":1303,"minecraft:custom_data":{cryptid.revivetrigger:1b}}}],ArmorDropChances:[0.085F,0.085F,0.085F,1.000F]} 
-effect give @n[type=vindicator, tag=cryptid.digger] slowness 1 5 true
+effect give @n[type=vindicator, tag=cryptid.digger] slowness 3 5 true
 
 scoreboard players set @e[tag=cryptid.digger,type=vindicator] cryptid.mob.class 2 
 
 execute as @e[type=vindicator, tag=cryptid.digger, tag=!cryptid.markerapplied] at @s run function cryptid:action/general/spawntickmarker {"name":"tickdigger"}
 
-kill @s

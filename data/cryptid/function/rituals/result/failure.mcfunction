@@ -1,6 +1,13 @@
 ## visuals
 function cryptid:rituals/result/_enraged
+fill ~1 ~-4 ~1 ~-1 ~-1 ~-1 air destroy
+playsound minecraft:cryptid.skull1 hostile @a
+function cryptid:rituals/ritualmishap/surfacequake
+tag @s add ritual.failure
+
+scoreboard players remove @a[distance=..30] cryptid.player.harmony 10000
 
 ## function
-tag @s add ritual.failure
-playsound minecraft:entity.ender_dragon.growl hostile @a
+execute if score @s cryptid.ritual.probability matches 20..30 run function cryptid:rituals/result/reward/failurelow
+execute if score @s cryptid.ritual.probability matches 5..20 run function cryptid:rituals/result/reward/failuremid
+execute if score @s cryptid.ritual.probability matches ..5 run function cryptid:rituals/result/reward/failurehigh

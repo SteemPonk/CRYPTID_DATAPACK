@@ -24,9 +24,19 @@ execute if score @s cryptid.timer matches 100..400 run particle dust_pillar{bloc
 execute if score @s cryptid.timer matches 100 run function cryptid:rituals/result/checkalter2
 execute if score @s cryptid.timer matches 100 run function cryptid:rituals/random/numbergenerator
 
+## Outcome Result Handling (timer value -100 - -200)
+# Fail
+execute if score @s[tag=ritual.failure] cryptid.timer matches -120..-100 run tp @s ~ ~0.5 ~
+execute if score @s[tag=ritual.failure] cryptid.timer matches -200..-120 run tp @s ~ ~-0.6 ~
+execute if score @s[tag=ritual.failure] cryptid.timer matches -200 run kill @s
 
+# success
+execute if score @s[tag=ritual.success] cryptid.timer matches -100 run playsound minecraft:cryptid.sword.spawn hostile @a
+execute if score @s[tag=ritual.success] cryptid.timer matches -120..-110 run tp @s ~ ~0.1 ~
+execute if score @s[tag=ritual.success] cryptid.timer matches -200..-120 run tp @s ~ ~-0.2 ~
+execute if score @s[tag=ritual.success] cryptid.timer matches -200 run kill @s
 # Despawn
-execute if score @s cryptid.timer matches 0 unless entity @p[distance=..8] run function cryptid:action/general/grounddeath
+execute if score @s cryptid.timer matches 0 unless entity @p[distance=..12] run function cryptid:action/general/grounddeath
 
 ######### Timer
-execute if score @s cryptid.timer matches 1.. run scoreboard players remove @s cryptid.timer 1
+execute unless score @s cryptid.timer matches 0 run scoreboard players remove @s cryptid.timer 1

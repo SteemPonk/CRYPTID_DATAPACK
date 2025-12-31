@@ -14,4 +14,4 @@ function cryptid:rituals/random/macrovariable with storage cryptid:ritual range
 
 execute if score @s cryptid.ritual.probability matches ..30 run function cryptid:rituals/result/failure
 execute if score @s cryptid.ritual.probability matches 31.. run function cryptid:rituals/result/success
-scoreboard players set @s cryptid.timer 0
+scoreboard players set @s cryptid.timer -100
