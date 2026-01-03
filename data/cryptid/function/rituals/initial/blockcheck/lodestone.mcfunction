@@ -1,5 +1,8 @@
 execute unless block ~ ~1 ~ #cryptid:occultfocus as @s[tag=ritual.translate] run tellraw @a[distance=..10] {"text":"Ritual Focus Invalid","color":"dark_purple","bold":true}
+
 execute if block ~ ~1 ~ #cryptid:occultfocus run scoreboard players add @s cryptid.ritual.focicount 1
+#execute if block ~ ~1 ~ #cryptid:occultfocus run summon armor_stand ~ ~1 ~ {Tags:["cryptid","cryptid.occultfocusmarker"],Invisible:1b,NoGravity:1b}
+#execute if block ~ ~1 ~ #cryptid:occultfocus as @n[tag=cryptid.occultfocusmarker] at @s run function cryptid:action/general/spawntickmarker {"name":"tickocultfocus"}
 
 execute if score @s cryptid.ritual.focicount matches 6.. run fill ~ ~ ~ ~ ~1 ~ air destroy
 execute if score @s[tag=ritual.translate] cryptid.ritual.focicount matches 6.. run tellraw @a[distance=..10] {"text":"Maximum Foci Reached","color":"dark_purple","bold":true}

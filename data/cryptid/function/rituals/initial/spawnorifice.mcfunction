@@ -7,7 +7,7 @@ execute as @e[type=minecraft:zombie, tag=cryptid.orifice, tag=!cryptid.markerapp
 
 
 
-
 particle dust_color_transition{from_color:[0.8,0.24,0.3],to_color:[0.46,0.06,0.02],scale:4} ~ ~1.6 ~ 0.5 0.6 0.5 400 25
 
 playsound minecraft:cryptid.mob.death ambient @a[distance=..15] ~ ~1.3 ~ 1 1.2
+
