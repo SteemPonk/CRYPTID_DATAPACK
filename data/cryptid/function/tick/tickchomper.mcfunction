@@ -45,7 +45,6 @@ execute if score @s cryptid.chomptime matches 1..25 run tag @s add chasing
 execute if entity @s[tag=idle, scores={cryptid.chomptime=95..}] run tp @s ~ ~ ~ facing entity @p eyes
 execute if entity @s[tag=idle, scores={cryptid.chomptime=95..}] run execute rotated as @s at @s run tp @s ~ ~ ~ ~180 ~
 
-
 ##slowly rotate hehehhaw
 execute if entity @s[tag=idle, scores={cryptid.chomptime=..95}] run execute rotated as @s at @s run execute at @s anchored eyes facing entity @p eyes positioned ^ ^ ^0.2 rotated as @s positioned ^ ^ ^5 facing entity @s eyes facing ^ ^ ^-1 positioned as @s run tp @s ~ ~ ~ ~ ~
 

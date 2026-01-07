@@ -1,4 +1,4 @@
-tp @s ~ ~ ~ facing entity @r
+ tp @s ~ ~ ~ facing entity @r
 
 
 execute store result score @s cryptid.player.random run random value 1..600
