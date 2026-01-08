@@ -8,6 +8,7 @@ scoreboard objectives add cryptid.handitem dummy
 scoreboard objectives add cryptid.world.fury dummy
 ##gamerules
 scoreboard objectives add cryptid.eventhandler dummy
+scoreboard objectives add cryptid.voidambiencetimer dummy
 scoreboard objectives add cryptid.randomeventcap dummy
 scoreboard objectives add cryptid.totalplayers dummy
 scoreboard objectives add cryptid.event.random dummy
